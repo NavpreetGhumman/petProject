@@ -1,0 +1,54 @@
+<html lang="en">
+    <head>
+        <meta charset="utf-8"/>
+        <title>Dice Roll </title>
+        <meta name="description" content="Fashion Designing"/>
+        <link rel="stylesheet" type="text/css" href="css/stylesheet.css">
+        <script src="js/diceRoll.js"></script>
+    </head>
+    <body>
+        
+        <div class="container"> 
+            <h1>Let's Play</h1> 
+            <h2></h2>
+            
+            <div id="div1"></div>
+            <div id="p1">
+                <p id="scoreP1">Total score(Player 1)</p>
+                <div id="score1"></div>
+            </div>
+            
+            <div id="p2">
+                <p id="scoreP2">Total Score(Player 2)</p>
+                <div id="score2"></div>
+            </div>
+            
+            <div class="dice"> 
+                <p id="Player1">Player 1</p> 
+                <div id="die1"></div>
+            </div> 
+            <div class="dice"> 
+                <p id="Player2">Player 2</p>
+                <div id="die2"></div>
+            </div> 
+        </div> 
+  
+     <!--  buttons -->
+        <div class="buttons"> 
+            <button type="button" class="butn" id="rollBtn">Roll the Dice</button> 
+        </div> 
+        <div class="buttons"> 
+            <button type="button" class="butn" id="editBtn">Edit Names</button> 
+        </div> 
+        <form id="form1" name="editName">
+            <input type="text" class="subbutn" id="editPlayer1" Placeholder = "Player 1"><br>
+            <input type="text" class="subbutn" id="editPlayer2" placeholder = "Player 2"><br>
+            <button type="button" class="subbutn" id="editBtn2">Edit</button>
+        </form>
+
+        <div class="buttons">
+            <button type="button" class="butn" id="playAgain">Play Again</button>
+        </div>  
+       
+    </body>
+</html>

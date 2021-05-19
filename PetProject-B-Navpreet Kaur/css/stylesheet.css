@@ -1,0 +1,99 @@
+@import url('https://fonts.googleapis.com/css2?family=Lora:ital@1&display=swap');
+html{
+    box-sizing: border-box;
+}
+*,*::before,*::after{
+    box-sizing: inherit;
+}
+body{
+    background-color:#fbba72;
+   
+}
+.container{
+    width: 90%; 
+    margin: auto; 
+    text-align: center; 
+}
+h1{
+    margin: 30px; 
+    text-shadow: 5px 0 #232931; 
+    font-size: 100px; 
+    color:#8f250c; 
+    text-align: center;
+}
+h2{
+    margin: 30px; 
+    text-shadow: 5px 0 #232931; 
+    font-size: 100px; 
+    color:#8f250c; 
+    text-align: center;
+    transition: height 50px ;
+}
+.dice{        
+    text-align: center; 
+    display: inline-block; 
+    margin: 10px; 
+} 
+        
+#die1, #die2{
+    width:100px;
+    height:100px;
+    border: 1px solid #000; 
+    font-size: 60px;
+    text-align: center;
+    background-color: #E38741;
+    border-radius: 10px;
+}
+#score1, #score2{
+    width:100px;
+    height:100px;
+    border: 1px solid #000; 
+    font-size: 60px;
+    text-align: center;
+    margin-left: 80px;
+    background-color: #E38741;
+}
+p{ 
+    font-size: 35px; 
+    color: #8f250c;  
+} 
+  
+#p1{
+    float: left;
+}
+#p2{
+    float: right;
+}
+.butn{ 
+    background: #691e06; 
+    border-radius: 7px; 
+    color: #fbba72; 
+    font-size: 30px; 
+    padding: 16px 25px 16px 25px; 
+    text-decoration: none; 
+    text-align: center;
+} 
+.subbutn{
+    background: #691e06; 
+    border-radius: 7px; 
+    color: #fbba72; 
+    font-size: 20px; 
+    padding: 12px 0; 
+    text-decoration: none; 
+    text-align: center;
+    margin-bottom: 5px;
+}
+#form1{
+    text-align: center;
+}
+#editBtn2{
+    padding: 12px 15px;
+}
+.butn:hover{ 
+    background: #bb4d00; 
+    text-decoration: none; 
+} 
+.buttons{
+    text-align: center;
+    padding-bottom: 15px;
+}
